@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    background: url("../pexels-luciann-photography-3566120.jpg") 100% 0% no-repeat;
+    background-size: cover;
+    height: 30em;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.miniHero {
+    color: #ffffff;
+    background-color: rgba(225, 225, 225, 0.2);
+    max-width: 20em;
+    max-height: 50em;
+    position: absolute;
+    top: 2em;
+    left: 3em;
+    height: 13em;
+    width: 15em;
+    padding: 1em;
+}
+
+.minihero h1{
+    font-size: 4em;
+    margin: 0;
+}
+
+.resultBox {
+    height: calc(fit-content + 10px);
+    width: 70%;
+    margin: 0 auto;
+    background-color: bisque;  
+}
+
+.resultBoxPadding {
+    padding: 0.5px;
+}
+
+.miniBox {
+    width: 80%;
+    height: fit-content;
+    background-color: aquamarine;
+    margin: 2em auto;
+    padding: 1em;
+}
